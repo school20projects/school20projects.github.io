@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Іван Шамякін</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <div class="floating-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+
+    <header>
+        <div class="container">
+            <h1>Іван Шамякін</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content" id="main-content">
+            <div class="author-section">
+                <div class="author-photo">
+                    <img src="https://www.fr.gov.by/upload/iblock/261/2612dbd4a6cc937f74dee74344b71397.jpg" alt="Шамякін">
+                </div>
+                <div class="author-info">
+                    <h2>Іван Шамякін</h2>
+                    <p>Іван Пятровіч Шамякін — беларускі савецкі пісьменнік, сцэнарыст і драматург, грамадскі дзеяч. Герой Сацыялістычнай Працы. Народны пісьменнік Беларускай ССР. Лаўрэат Сталінскай прэміі трэцяй ступені. Член ВКП з 1943 года. Акадэмік Нацыянальнай акадэміі навук Беларусі.</p>
+                    <p>Нарадзіўся 30 студзеня 1921 года ў вёсцы Карма Гомельскага павета Гомельскай губерні (цяпер Добрушскага раёна Гомельскай вобласці Беларусі) у сялянскай сям'і.
+У 1936 годзе скончыў сем класаў Макаўскай школы, працягнуў вучобу ў Гомельскім тэхнікуме будаўнічых матэрыялаў (1936—1940). Пасля заканчэння тэхнікума працаваў тэхнікам-тэхнолагам цагельні ў Беластоку. Яшчэ ў тэхнікуме пачаў пісаць вершы, удзельнічаў у паседжаннях літаратурнага аб'яднання пры газеце «Гомельская праўда».</p>
+                    <p>Адзін з найбольш вядомых раманаў Шамякіна - "Сэрца на далоні" (1964).</p>
+                </div>
+            </div>
+
+            <div class="buttons-container">
+                <button class="btn" id="test-btn">
+                    <i class="fas fa-file-alt"></i> Тэст па творы
+                <button class="btn" id="characters-btn">
+                    <i class="fas fa-users"></i> Вобразы герояў
+                </button>
+                <button class="btn" id="bio-btn">
+                    <i class="fas fa-book-open"></i> Поўная біяграфія
+                </button>
+            </div>
+        </div>
+
+        <div class="page-section" id="test-page">
+            <h2 class="page-title">Тэст па творы "Сердце на ладони"</h2>
+            
+            <div class="test-question">
+                <h3>1. Хто быў галоўным супернікам перагляду кнігі аб падполлі?</h3>
+                <p><input type="radio" name="q1" id="q1a"> Валера Фрыстайла</p>
+                <p><input type="radio" name="q1" id="q1b"> Сямён Гукан</p>
+                <p><input type="radio" name="q1" id="q1c"> Доктар Яраш</p>
+                <p><input type="radio" name="q1" id="q1d"> Сяргей Тарасаў</p>
+            </div>
+            
+            <div class="test-question">
+                <h3>2. Якую аперацыю правёў доктар Яраш у сваёй сучаснай аперацыйнай?</h3>
+                <p><input type="radio" name="q2" id="q2a"> Аперацыя на ныркі</p>
+                <p><input type="radio" name="q2" id="q2b"> Аперацыя на сэрцы</p>
+                <p><input type="radio" name="q2" id="q2c"> Аперацыя на мозг</p>
+                <p><input type="radio" name="q2" id="q2d"> Выразаў апендыцыт</p>
+            </div>
+            
+            <div class="test-question">
+                <h3>3. Пад якой мянушкай хаваўся ў доме доктара Савіча адзін з кіраўнікоў падполля?</h3>
+                <p><input type="radio" name="q3" id="q3a"> Сажань</p>
+                <p><input type="radio" name="q3" id="q3b"> Рашэўскі</p>
+                <p><input type="radio" name="q3" id="q3c"> Славік</p>
+                <p><input type="radio" name="q3" id="q3d"> Аксімірон</p>
+            </div>
+            
+            <div class="test-question">
+                <h3>4. Хто з герояў, ратуючы сваю рэпутацыю, напісаў данос на Зосю Савіч?</h3>
+                <p><input type="radio" name="q4" id="q4a"> Сяргей Тарасаў</p>
+                <p><input type="radio" name="q4" id="q4b"> Сямён Гукан</p>
+                <p><input type="radio" name="q4" id="q4c"> Сцяпан Савіч</p>
+                <p><input type="radio" name="q4" id="q4d"> Славік Шыковіч</p>
+            </div>
+            
+            <button class="btn" id="submit-test">Праверыць адказы</button>
+            <button class="back-btn" id="back-from-test">Назад</button>
+        </div>
+
+        <div class="page-section" id="characters-page">
+            <h2 class="page-title">Вобразы герояў "Сэрца на далоні"</h2>
+            
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="https://dashboard.snapcraft.io/site_media/appmedia/2025/06/1544x1544_circle.png" alt="Антон">
+                </div>
+                <h3 class="character-name">Антон Яраш</h3>
+                <p class="character-description">Таленавіты і паважаны хірург. Прынцыповы, смелы, адказны, міласэрны. На працы - прафесіянал найвышэйшага класа, у жыцці - патаемны і глыбока які хвалюецца чалавек. Нясе ў сабе цяжкі цяжар ваеннага мінулага, аб якім аддаваў перавагу маўчаць. Выпрабоўвае складаныя пачуцці абавязку і віны. Цэнтральны персанаж.</p>
+            </div>
+            
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="https://dashboard.snapcraft.io/site_media/appmedia/2025/06/1544x1544_circle.png" alt="Кірыл">
+                </div>
+                <h3 class="character-name">Кірыл Шыковіч</h3>
+                <p class="character-description">Пісьменнік, былы суаўтар Гукана па кнізе аб падполлі.Шукі, прынцыповы, настойлівы. Чалавек эпохі "адлігі", які імкнецца да праўды і пераасэнсаванню гісторыі. Паглынуты працай, што перашкаджае яму бачыць праблемы ў сям'і. Дэтэктыў-аматар. Яго расследаванне праўды пра доктара Савіча і супрацьстаянне з Гуканам складаюць галоўны канфлікт аповесці. Ён з'яўляецца сувязным звяном паміж многімі персанажамі.</p>
+            </div>
+            
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="https://catppuccin.gallerycdn.vsassets.io/extensions/catppuccin/catppuccin-vsc-icons/1.24.0/1755439555580/Microsoft.VisualStudio.Services.Icons.Default" alt="Зося">
+                </div>
+                <h3 class="character-name">Зося Савіч</h3>
+                <p class="character-description">Былая вязня канцлагераў. Жывое сведчанне і ключ да разгадкі таямніцы ваеннага мінулага. Яе лёс звязвае Яраша і Шыковіча. Яе нявыказанае каханне да Яраша стварае адзін з любоўных трыкутнікаў.</p>
+            </div>
+            
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" alt="Сямён">
+                </div>
+                <h3 class="character-name">Сямён Гукан</h3>
+                <p class="character-description">Старшыня гарвыканкама, былы кіраўнік падполля. Кансерватыўны, аўтарытарны, уладалюбівы. Чалавек старой загартоўкі, для якога захаванне ўласнай рэпутацыі і ўлады важней за праўду. У мінулым выявіў маладушнасць, што стала яго трагедыяй і віной.</p>
+            </div>
+            
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="https://catppuccin.gallerycdn.vsassets.io/extensions/catppuccin/catppuccin-vsc-icons/1.24.0/1755439555580/Microsoft.VisualStudio.Services.Icons.Default" alt="Маша">
+                </div>
+                <h3 class="character-name">Маша Літвін</h3>
+                <p class="character-description">Медсястра ў бальніцы Яраша, 23 гады. Аб'ект любоўнага трыкутніка паміж Славікам і Тарасам. Сімвал новага, маладога, здаровага жыцця. Яе саюз з Тарасам - гэта саюз "правільных" і станоўчых герояў. Дапамагае Зосі, становячыся яе сяброўкай.</p>
+            </div>
+            
+            <button class="back-btn" id="back-from-characters">Назад</button>
+        </div>
+
+        <div class="page-section" id="bio-page">
+            <h2 class="page-title">Поўная біяграфія Івана Шамякіна</h2>
+            
+            <div class="bio-content">
+                <p>Іван Пятровіч Шамякін нарадзіўся 30 студзеня 1921 года ў вёсцы Карма Добрушскага раёна Гомельскай вобласці ў сялянскай сям'і. Пасля заканчэння сямігодкі паступіў у Гомельскі тэхнікум, але вучобу перапыніла вайна.</p> 
+
+<p>У гады Вялікай Айчыннай вайны Іван Шамякін ваяваў на Заходнім, Бранскім і 1-м Беларускім франтах. Быў паранены, узнагароджаны ордэнамі і медалямі. Ваенныя ўражанні пазней знайшлі адлюстраванне ў многіх яго творах.</p> 
+
+<p>Пасля вайны Шамякін скончыў Гомельскі педагагічны інстытут. Працаваў выкладчыкам у школе, затым рэдактарам Гомельскага абласнога радыё.</p> 
+
+<p>Літаратурнай дзейнасцю Іван Шамякін пачаў займацца ў пасляваенныя гады. Яго першыя апавяданні былі апублікаваны ў 1945 годзе. Шырокую вядомасць пісьменніку прынеслі раманы "Глыбокая плынь", "Крыніцы", "Сэрца на далоні" і іншыя.</p> 
+
+<p>У сваёй творчасці Шамякін звяртаўся да найважнейшых праблем сучаснасці, адлюстроўваў жыццё беларускага народа ў яго гістарычным развіцці, даследаваў маральныя пошукі асобы.</p> 
+
+<p>Пісьменнік актыўна ўдзельнічаў у грамадскім жыцці. Быў дэпутатам Вярхоўнага Савета БССР, старшынёй праўлення Саюза пісьменнікаў Беларусі, сакратаром праўлення Саюза пісьменнікаў СССР.</p> 
+
+<p>Іван Шамякін - Герой Сацыялістычнай Працы, лаўрэат Дзяржаўнай прэміі БССР імя Якуба Коласа, народны пісьменнік Беларускай ССР.</p> 
+
+<p>Памёр Іван Пятровіч Шамякін 14 кастрычніка 2004 года ў Мінску. Пахаваны на Усходніх могілках.</p> 
+
+<p>Творчасць Івана Шамякіна займае важнае месца ў беларускай літаратуры XX стагоддзя. Яго творы перакладзены на многія мовы народаў СССР і замежных краін.</p>
+            </div>
+            
+            <button class="back-btn" id="back-from-bio">Назад</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
