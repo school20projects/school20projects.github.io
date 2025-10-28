@@ -43,11 +43,11 @@ document.addEventListener('DOMContentLoaded', function() {
         let correctAnswers = 0;
         
         if (document.getElementById('q1b').checked) correctAnswers++;
-        if (document.getElementById('q2b').checked) correctAnswers++;
+        if (document.getElementById('q2c').checked) correctAnswers++;
         if (document.getElementById('q3a').checked) correctAnswers++;
         if (document.getElementById('q4b').checked) correctAnswers++;
-        
-        // Создаем красивое уведомление
+        if (document.getElementById('q5b').checked) correctAnswers++;
+
         const resultMessage = document.createElement('div');
         resultMessage.style.cssText = `
             position: fixed;
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         resultMessage.innerHTML = `
             <h3 style="color: var(--lavender); margin-bottom: 1rem;">Вынікі тэсту</h3>
-            <p style="margin-bottom: 1.5rem;">Вы адказалі правільна на <strong style="color: var(--peach);">${correctAnswers}</strong> з 4 пытанняў.</p>
+            <p style="margin-bottom: 1.5rem;">Вы адказалі правільна на <strong style="color: var(--peach);">${correctAnswers}</strong> з 5 пытанняў.</p>
             <button id="close-result" style="padding: 0.5rem 1rem; background: var(--mauve); color: var(--base); border: none; border-radius: 8px; cursor: pointer; font-weight: bold;">Закрыць</button>
         `;
         
